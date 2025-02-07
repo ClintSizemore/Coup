@@ -143,14 +143,62 @@
             android:layout_weight="3"
             android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/actionsText"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="3"
+                android:paddingLeft="50dp">
+
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="3"
-                android:paddingLeft="20sp"
-                android:text="Income\nForeign Aid\nCoup\nTax\nAssasinate\nSteal\nExchange"
-                android:textSize="24sp" />
+                android:text="Income"
+                android:textSize="10sp"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Foreign Aid"                android:textSize="10sp"
+
+
+                />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tax"
+                    android:textSize="10sp"
+
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Assasinate"
+                    android:textSize="10sp"
+
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Steal"
+                    android:textSize="10sp"
+
+                    />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exchange"
+                    android:textSize="10sp"
+
+                    />
+
+        </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout
